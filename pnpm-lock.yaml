@@ -23,6 +23,9 @@ dependencies:
   '@whiskeysockets/baileys':
     specifier: ^6.4.0
     version: 6.5.0
+  axios:
+    specifier: ^1.5.1
+    version: 1.5.1
   mime-types:
     specifier: 2.1.35
     version: 2.1.35

@@ -1,1 +1,153 @@
-[]
+[
+  {
+    "ref": "e5a99084-f400-4a31-a959-837921aa4f6f",
+    "keyword": "84fd2a224a331dd5ddad99dbab72040d",
+    "answer": "hola",
+    "options": {},
+    "from": "573144000233",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_2a1e7682-565e-466e-800c-19c89c256362",
+    "keyword": "key_6d6fd42d-403b-459d-824f-7dbce53032f5",
+    "answer": "🙌 Hola prueba *Chatbot*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "42d38be53b242b2a43715ab6c6fba4f2",
+    "from": "573144000233"
+  },
+  {
+    "ref": "ans_78283c76-18a2-4bd8-8ecb-308e70e4bdf8",
+    "keyword": "ans_2a1e7682-565e-466e-800c-19c89c256362",
+    "answer": "Menu del flow\n👉 *clave1* primera opción\n👉 *clave2* segunda opción\n👉 *clave3* tercera opción",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [
+        {
+          "ref": "key_a8a7ebba-1e42-48ca-be82-c9c7528d93d5",
+          "keyword": [
+            "clave1",
+            "siguiente"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "421a6cd7d0318da22cdae0960245193d"
+        },
+        {
+          "ref": "ans_b1ba75a0-bdd1-4668-803a-5a0cc152758e",
+          "keyword": "key_a8a7ebba-1e42-48ca-be82-c9c7528d93d5",
+          "answer": "¿Cual es tu email?",
+          "options": {
+            "media": "https://i.imgur.com/0HpzsEm.png",
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "9e05dd03bd5e568e268f1138e0bf2b30"
+        },
+        {
+          "ref": "ans_ce040def-e864-4ad8-93ce-15ffed84f864",
+          "keyword": "ans_b1ba75a0-bdd1-4668-803a-5a0cc152758e",
+          "answer": "¿Cual es tu nombre?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "4864549c5561ff608d6376d099f05b67"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "e7f9dac23793e00a7ad432975eeb1ee8",
+    "from": "573144000233"
+  },
+  {
+    "ref": "9fff7383-4acf-4b45-bfcc-e8d679670cfe",
+    "keyword": "e7f9dac23793e00a7ad432975eeb1ee8",
+    "answer": "clave1",
+    "options": {},
+    "from": "573144000233",
+    "refSerialize": "e3006ce0052cac726bc2ce734cb415df"
+  },
+  {
+    "ref": "ans_b1ba75a0-bdd1-4668-803a-5a0cc152758e",
+    "keyword": "key_a8a7ebba-1e42-48ca-be82-c9c7528d93d5",
+    "answer": "¿Cual es tu email?",
+    "options": {
+      "media": "https://i.imgur.com/0HpzsEm.png",
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "9e05dd03bd5e568e268f1138e0bf2b30",
+    "from": "573144000233"
+  },
+  {
+    "ref": "38b56825-ce7f-4518-a82a-ed314024c15d",
+    "keyword": "9e05dd03bd5e568e268f1138e0bf2b30",
+    "answer": "strujillo@dv",
+    "options": {},
+    "from": "573144000233",
+    "refSerialize": "bbadd2270a5e8606b8babde53602d40d"
+  },
+  {
+    "ref": "ans_ce040def-e864-4ad8-93ce-15ffed84f864",
+    "keyword": "ans_b1ba75a0-bdd1-4668-803a-5a0cc152758e",
+    "answer": "¿Cual es tu nombre?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4864549c5561ff608d6376d099f05b67",
+    "from": "573144000233"
+  },
+  {
+    "ref": "73011f83-571b-4865-87f4-18af047d91d9",
+    "keyword": "4864549c5561ff608d6376d099f05b67",
+    "answer": "4",
+    "options": {},
+    "from": "573144000233",
+    "refSerialize": "e8139b7fa2fbc1b48f247924f8ad1961"
+  }
+]

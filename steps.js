@@ -1,5 +1,5 @@
 
-const { createBot, createProvider, createFlow, addKeyword } = require('@bot-whatsapp/bot')
+const { addKeyword } = require('@bot-whatsapp/bot')
 
 
 const flowBienvenido = addKeyword(['clave1', 'siguiente']).addAnswer('¿Cual es tu email?', {

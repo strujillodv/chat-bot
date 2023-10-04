@@ -6,20 +6,10 @@ const flowBienvenido = addKeyword(['clave1', 'siguiente']).addAnswer('¿Cual es 
     capture: true,
     media: 'https://i.imgur.com/0HpzsEm.png',
 }, async (ctx) => {
-
-    const numeroDeWhatsapp = ctx.from 
+    
     const mensajeRecibido = ctx.body 
 
-    console.log(numeroDeWhatsapp,mensajeRecibido)
-
-}).addAnswer('¿Cual es tu nombre?', {
-    capture: true
-}, async (ctx) => {
-
-    const numeroDeWhatsapp = ctx.from 
-    const mensajeRecibido = ctx.body 
-
-    console.log(numeroDeWhatsapp,mensajeRecibido)
+    console.log(mensajeRecibido)
 
 })
 
@@ -34,7 +24,7 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
     ],
     null,
     null,
-    [flowBienvenido]
+    [flowBienvenido, flow2, flow3]
 )
 
 module.exports = {
